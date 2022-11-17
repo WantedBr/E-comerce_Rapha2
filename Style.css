@@ -1,0 +1,99 @@
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+header {
+    background-color: #e79ea5;
+
+
+
+}
+
+#cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ofertaLimitada {
+    font-size: 20pt;
+    border-bottom: 2px solid #efe794;
+
+}
+
+#pesquisar {
+    display: flex;
+    background: white;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0;
+
+    background-color: transparent;
+
+    height: 5;
+    width: 200pt;
+}
+
+#botaoPesquisar {
+    height: 20pt;
+    width: 500pt;
+    border-radius: 20px;
+    border-color: white;
+}
+
+#botaoPesquisar::placeholder {
+    color: lightgray;
+    text-align: center;
+
+}
+
+#navBottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+
+}
+
+#item {
+
+    cursor: pointer;
+    font: 400;
+}
+
+#slider {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#midiaSocias {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+#carrossel {
+    color: white;
+    background-color: black;
+    padding: 70pt;
+}
+
+#imgCarrossel {
+    text-align: center;
+}
+
+#itens {
+    font-size: 50pt;
+    display: flex;
+    justify-content: space-around;
+    padding: 200pt;
+}
+
+#item1 {
+    border-radius: 10px;
+    border-color: black;
+}
