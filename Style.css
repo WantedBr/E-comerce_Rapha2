@@ -139,9 +139,8 @@ header {
 }
 
 .carrossel {
-
-    height: 50px;
     width: 1500px;
+    height: 1000px;
     overflow: hidden;
     box-shadow: 2px 2px 4px black;
     align-items: flex-start;
@@ -166,7 +165,8 @@ header {
 #img {
     object-fit: cover;
     height: 1012px;
-    width: 400px;
+
+
 
 
 
