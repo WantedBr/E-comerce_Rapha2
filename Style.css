@@ -1,7 +1,8 @@
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Dancing Script', cursive;
     padding: 0;
     margin: 0;
+    background-color: lightgray;
 
 
 }
@@ -17,12 +18,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-#ofertaLimitada {
-    font-size: 20pt;
-    border-bottom: 2px solid #efe794;
-
 }
 
 #pesquisar {
@@ -55,7 +50,73 @@ header {
     display: flex;
     justify-content: space-around;
     background-color: white;
+    font-size: 16pt;
+    border: solid rgb(239, 198, 94);
 
+
+
+
+}
+
+#colar {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+#colar:hover {
+    color: gold;
+
+
+
+
+
+}
+
+#pulseira {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    cursor: pointer;
+}
+
+#pulseira:hover {
+    color: gold;
+
+
+
+
+
+}
+
+#brinco {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    cursor: pointer;
+}
+
+#brinco:hover {
+    color: gold;
+
+
+
+
+
+}
+
+#anel {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+#anel:hover {
+    color: gold;
 }
 
 #item {
@@ -74,26 +135,151 @@ header {
     display: flex;
     justify-content: space-around;
     cursor: pointer;
+    gap: 10px;
 }
 
-#carrossel {
-    color: white;
-    background-color: black;
-    padding: 70pt;
+.carrossel {
+
+    height: 50px;
+    width: 1500px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px black;
+    align-items: flex-start;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+
+
+
+
 }
 
-#imgCarrossel {
-    text-align: center;
+.container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+
+}
+
+#img {
+    object-fit: cover;
+    height: 1012px;
+    width: 400px;
+
+
+
+
 }
 
 #itens {
     font-size: 50pt;
     display: flex;
     justify-content: space-around;
-    padding: 200pt;
+    margin: 8pt;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    box-shadow: 7pt 4pt 3pt slategray;
 }
 
 #item1 {
-    border-radius: 10px;
+    border: solid;
     border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+
+}
+
+#item2 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+#item3 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+#item4 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+#item5 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+#item6 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+#item7 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+#item8 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+#item9 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+#item10 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+#item11 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+#item12 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+#item13 {
+    border: solid;
+    border-color: black;
+    margin: 70pt 20pt;
+    padding: 70pt 20pt;
+}
+
+
+
+#rodape {
+    background: black;
+    color: white;
+    padding: 100pt;
 }
