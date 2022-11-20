@@ -3,6 +3,8 @@ body {
     padding: 0;
     margin: 0;
     background-color: lightgray;
+    overflow-x: hidden;
+
 
 
 }
@@ -18,7 +20,9 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
+
 
 #pesquisar {
     display: flex;
@@ -26,18 +30,23 @@ header {
     align-items: center;
     padding: 10px 20px;
     margin: 0;
-
+    gap: 1%;
     background-color: transparent;
+}
 
-    height: 5;
-    width: 200pt;
+#logoloja {
+
+    height: 150px;
+
 }
 
 #botaoPesquisar {
-    height: 20pt;
-    width: 500pt;
+    height: 30px;
+    width: 400px;
     border-radius: 20px;
-    border-color: white;
+    border-color: rgb(239, 198, 94);
+
+
 }
 
 #botaoPesquisar::placeholder {
@@ -47,11 +56,15 @@ header {
 }
 
 #navBottom {
+
     display: flex;
     justify-content: space-around;
     background-color: white;
     font-size: 16pt;
     border: solid rgb(239, 198, 94);
+
+
+
 
 
 
@@ -160,6 +173,7 @@ header {
     transition: transform 0.5s ease-in-out;
     transform: translateX(0);
 
+
 }
 
 #img {
@@ -197,6 +211,12 @@ header {
     border-color: black;
     margin: 70pt 20pt;
     padding: 70pt 20pt;
+    cursor: pointer;
+    background-image: url(/img/colar-sejaforte.png);
+}
+
+#item2:hover {
+    background-image: url(/img/logo3.jpeg);
 }
 
 #item3 {
