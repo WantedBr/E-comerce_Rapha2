@@ -254,12 +254,16 @@ header {
     font-size: 1.1em;
     cursor: pointer;
     transition: 0.3s ease;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #cardItem button:hover {
     background: rgb(239, 198, 94);
     color: white;
+    box-shadow: 7px 7px 7px lightgrey;
+    padding: 9px;
+
+
 }
 
 #rodape {
