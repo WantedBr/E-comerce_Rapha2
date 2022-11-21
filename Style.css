@@ -1,8 +1,8 @@
 body {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Raleway', sans-serif;
     padding: 0;
     margin: 0;
-    background-color: lightgray;
+    background-color: white;
     overflow-x: hidden;
 
 
@@ -152,10 +152,10 @@ header {
 }
 
 .carrossel {
-    width: 1500px;
-    height: 1000px;
+    width: 100%px;
+    height: 300px;
     overflow: hidden;
-    box-shadow: 2px 2px 4px black;
+
     align-items: flex-start;
     display: flex;
     justify-content: flex-start;
@@ -188,115 +188,79 @@ header {
 }
 
 #itens {
-    font-size: 50pt;
+    max-width: 100%;
+    height: 1500px;
     display: flex;
-    justify-content: space-around;
-    margin: 8pt;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 30px;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+
+}
+
+#cardItem {
+    width: 200px;
+    height: 400px;
+    background: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    background-color: white;
-    box-shadow: 7pt 4pt 3pt slategray;
-}
+    justify-content: space-around;
 
-#item1 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
 
 }
 
-#item2 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
+#cardItem:hover {
+    box-shadow: 7px 7px 7px lightgrey;
+}
+
+#conteudoCard {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#cardItem img {
+    width: 95%;
+
+}
+
+#cardItem h3 {
+    width: 90%;
+    text-align: center;
+}
+
+#cardItem p {
+    width: 90%;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+#cardItem button {
+    width: 90%;
+    padding: 15px 0px;
+    border: none;
+    background: ;
+    border-radius: 4px;
+    background: #e79ea5;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1em;
     cursor: pointer;
-    background-image: url(/img/colar-sejaforte.png);
+    transition: 0.3s ease;
+    margin-bottom: 10px;
 }
 
-#item2:hover {
-    background-image: url(/img/logo3.jpeg);
+#cardItem button:hover {
+    background: rgb(239, 198, 94);
+    color: white;
 }
-
-#item3 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
-}
-
-#item4 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
-}
-
-#item5 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
-}
-
-#item6 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
-}
-
-#item7 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
-}
-
-#item8 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
-}
-
-#item9 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
-}
-
-#item10 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
-}
-
-#item11 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
-}
-
-#item12 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
-}
-
-#item13 {
-    border: solid;
-    border-color: black;
-    margin: 70pt 20pt;
-    padding: 70pt 20pt;
-}
-
-
 
 #rodape {
     background: black;
