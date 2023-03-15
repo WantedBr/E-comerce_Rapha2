@@ -215,6 +215,7 @@ header {
 
 #cardItem:hover {
     box-shadow: 7px 7px 7px lightgrey;
+    padding: 15px;
 }
 
 #conteudoCard {
@@ -246,7 +247,7 @@ header {
     width: 90%;
     padding: 15px 0px;
     border: none;
-    background: ;
+
     border-radius: 4px;
     background: #e79ea5;
     color: black;
